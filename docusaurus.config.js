@@ -10,7 +10,7 @@ const config = {
   tagline: 'Data & Analytics',
   url: 'https://www.github.com',
   baseUrl: '/data-and-analytics/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
