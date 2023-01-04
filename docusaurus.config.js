@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Data & Analytics',
+        title: 'Ein Power BI Blog & Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
