@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Data & Analytics',
   tagline: 'Data & Analytics',
-  url: 'jon-cajacob.github.io',
-  baseUrl: '/',
+  url: 'https://www.github.com',
+  baseUrl: '/data-and-analytics/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jon-cajacob', // Usually your GitHub org/user name.
-  projectName: 'jon-cajacob.github.io',
+  projectName: 'data-and-analytics',
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
