@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[301],{1300:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/data-and-analytics/blog/tags/facebook","allTagsPath":"/data-and-analytics/blog/tags","count":1}')}}]);

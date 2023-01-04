@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[1131],{594:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/data-and-analytics/blog/tags/hello","allTagsPath":"/data-and-analytics/blog/tags","count":2}')}}]);
