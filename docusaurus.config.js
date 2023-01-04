@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Ein Power BI Blog & Wiki',
+        title: 'Data & Analytics',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -74,8 +74,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/jon-cajacob',
-            label: 'GitHub',
+            href: 'https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],
@@ -84,44 +84,44 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Navigation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Wiki',
+                to: '/',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: 'Links',
+            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/',
+              },
+              {
+                label: 'DataVision AG',
+                href: 'https://www.datavision.ch/',
               },
             ],
           },
+//          {
+//            title: 'More',
+//            items: [
+//              {
+//                label: 'Blog',
+//                to: '/blog',
+//              },
+//              {
+//                label: 'GitHub',
+//                href: 'https://github.com/facebook/docusaurus',
+//              },
+//            ],
+//          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Data & Analytics, Built with Docusaurus.`,
       },
