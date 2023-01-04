@@ -9,7 +9,7 @@ const config = {
   title: 'Data & Analytics',
   tagline: 'Data & Analytics',
   url: 'https://github.com',
-  baseUrl: '/jon-cajacob.github.io/',
+  baseUrl: '/data-and-analytics/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jon-cajacob', // Usually your GitHub org/user name.
-  projectName: 'jon-cajacob.github.io',
+  projectName: 'data-and-analytics',
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
