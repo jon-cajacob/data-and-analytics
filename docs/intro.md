@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# Welcome & About this Wiki
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

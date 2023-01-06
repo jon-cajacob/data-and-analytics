@@ -1,8 +1,9 @@
 ---
 sidebar_position: 99
+tags: [Demo]
 ---
 
-# Create a Blog Post
+# Create a Blog Posts
 
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 

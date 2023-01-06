@@ -32,6 +32,10 @@ Given that, it is obvious that one should always strive to **improve the data qu
 
 The BI solution however can be the perfect tool to **visualize and monitor** the status and improvements of data quality. More on that further below.
 
+:::tip
+Always strive to fix data quality problems as close to the (data) source as possible.
+:::
+
 ### Types of Data Quality Issues
 Please note, categorizing data quality issues into types is not very important by itself. But it can help to better identify problems and structure the strategy to fix them.
 

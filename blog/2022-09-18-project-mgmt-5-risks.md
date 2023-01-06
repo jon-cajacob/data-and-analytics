@@ -18,7 +18,9 @@ tags: [Project Management, Risk Management]
 
 There are possibly endless reasons why a specific BI-project in a specific organisation is at risk of failure. However, I believe a certain pattern can be observed which I summarize in the following.
 
-*One note:* Knowing the risks is one thing. Actually managing them requires discipline and hard work. Take this list as a constant reminder in your BI journey and don’t fall for the various traps that might lurk around the next corner.
+:::tip
+Knowing the risks is one thing. Actually managing them requires discipline and hard work. Take this list as a constant reminder in your BI journey and don’t fall for the various traps that might lurk around the next corner.
+:::
 
 ### 1. Too much complexity and scope in the beginning and at all times
 In my experience, this is maybe the most relevant reason, why a BI-project struggles. Starting a new project is exciting and people are highly motivated, in particular in the beginning. Senior management might saw a very fancy dashboard at a conference and now also wants (exactly) that – ASAP of course. And it is just a few charts and tables, right?
@@ -106,7 +108,9 @@ I believe some of the **main reasons why data quality remains such a significant
 
 I have written a separate article about the topic of data quality. [See here](2022-11-05-reporting-dataquality-1.md)
 
-*Please note:* Not all data has to have the same level of quality. Therefore, first identify the most relevant data and its issues and work on that one first.
+:::tip
+Not all data has to have the same level of quality. Therefore, first identify the most relevant data and its issues and work on that one first.
+:::
 
 ### Conclusions
 There are many more potentially important risks to manage in a BI-project but I believe if you are aware of the ones listed above and you actively monitor and manage them, you are on a good path to success.

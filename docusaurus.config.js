@@ -39,8 +39,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/jon-cajacob/jon-cajacob.github.io/tree/main/',
+          //editUrl:
+          //  'https://github.com/jon-cajacob/jon-cajacob.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -95,12 +95,12 @@ const config = {
                 to: '/blog/tags/project-management',
               },
               {
-                label: '2 | Solution Architecture',
-                to: '/blog/tags/project-management',
+                label: '2 | Solution Design',
+                to: '/blog/tags/solution-design',
               },
               {
                 label: '3 | Data Transformation (ETL)',
-                to: '/blog/tags/data-model',
+                to: '/blog/tags/data-transformation',
               },
               {
                 label: '4 | Data Model',
@@ -112,7 +112,7 @@ const config = {
               },
               {
                 label: '6 | Publishing & Sharing',
-                to: '/blog/tags/data-visualization-reporting',
+                to: '/blog/tags/publishing-sharing',
               },
 
               // ... more items

@@ -89,7 +89,9 @@ Please note, this means the customer has to have capacity to review things and r
 Further, if deemed useful, a sprint **retrospective** can be organized in which the team reflects on how the work was organized and done, and improve accordingly.
 
 ### Warning: Don’t Get Lost in Agile Project Management Methodology
-*One word of caution:* When planning, executing and reviewing a sprint, make sure the focus is on the **delivery of working solutions** at all times and don’t get lost in planning and managing the project.
+:::caution
+When planning, executing and reviewing a sprint, make sure the focus is on the **delivery of working solutions** at all times and don’t get lost in planning and managing the project.
+:::
 
 A BI & analytics projects has a lot of uncertainties involved and it will not be possible to remove all of them with planning or agile methods. Instead, consider the project as a learning journey for your people and the organization. As already noted, embrace the uncertainty and take these learnings and incorporate them into the process right away.
 

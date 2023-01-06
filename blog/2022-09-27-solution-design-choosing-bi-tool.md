@@ -13,12 +13,7 @@ tags: [Solution Design, BI Software Market]
 
 ---
 
-
 <!-- <mark style={{backgroundColor: 'orange'}}>Text</mark> -->
-
-There are possibly endless reasons why a specific BI-project in a specific organisation is at risk of failure. However, I believe a certain pattern can be observed which I summarize in the following.
-
-*One note:* Knowing the risks is one thing. Actually managing them requires discipline and hard work. Take this list as a constant reminder in your BI journey and don’t fall for the various traps that might lurk around the next corner.
 
 ### Introduction
 There are 20 different software tools in the Gartner Magic Quadrant for Business Intelligence Platforms (as of March 2022). Choosing the right tool for your organization can quickly become overwhelming especially when most of them seem to promise “everything you need” in their individual marketing materials.
@@ -69,6 +64,7 @@ To illustrate this, I ran the tool for the three market leading tools Power BI, 
 ![Bild](/img/img_02.01-3.png)
 <div align="center"><font size= "2">Google trend analysis for the three major BI platforms
 </font></div>
+<br/>
 
 *Please note:* It is a bit tricky to find the right search term as Google categorizes them into groups like “Software” or “Topic”. It probably makes sense to play around a bit and get an understanding of the popularity evolution of each tool.
 
