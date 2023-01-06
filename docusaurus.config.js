@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Data & Analytics',
+  title: 'A Data & Analytics Wiki',
   tagline: 'Data & Analytics',
   url: 'https://www.github.com',
   baseUrl: '/data-and-analytics/',
@@ -44,10 +44,12 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'All articles',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Data & Analytics',
+        title: 'A Data & Analytics Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -72,7 +74,51 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
+
+          {
+            type: 'dropdown',
+            label: 'Blog',
+            position: 'left',
+            to: '/blog',
+            items: [
+              {
+                label: 'Overview',
+                to: '/blog',
+              },
+              {
+                label: 'All Tags',
+                to: '/blog/tags',
+              },
+              {
+                label: '1 | Project Management',
+                to: '/blog/tags/project-management',
+              },
+              {
+                label: '2 | Solution Architecture',
+                to: '/blog/tags/project-management',
+              },
+              {
+                label: '3 | Data Transformation (ETL)',
+                to: '/blog/tags/data-model',
+              },
+              {
+                label: '4 | Data Model',
+                to: '/blog/tags/data-model',
+              },
+              {
+                label: '5 | Data Visualization & Reporting',
+                to: '/blog/tags/data-visualization-reporting',
+              },
+              {
+                label: '6 | Publishing & Sharing',
+                to: '/blog/tags/data-visualization-reporting',
+              },
+
+              // ... more items
+            ],
+          },
+
           {
             href: 'https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/',
             label: 'LinkedIn',
@@ -123,7 +169,7 @@ const config = {
 //            ],
 //          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Data & Analytics, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} A Data & Analytics Wiki by Jon Cajacob, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
