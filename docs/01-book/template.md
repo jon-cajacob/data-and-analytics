@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 999
 title: TITLE
-slug: /01-01-toc
+slug: /template
 tags: [tag1]
 ---
 
