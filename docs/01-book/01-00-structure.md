@@ -11,7 +11,7 @@ By the end of 2022, I decided I want to write a book about what I know best: cre
 
 The current idea is to write it on this Wiki chapter by chapter, and I have a good feeling about the whole package I can publish it (i.e. transfer it to Word, format everything etc.). Currently though, I do not know how to publish a book (e.g. self-publishing?).
 
-## Planned structure
+## Planned structure / Rough outline
 
 The following is the structure that I have currently in mind for my book:
 

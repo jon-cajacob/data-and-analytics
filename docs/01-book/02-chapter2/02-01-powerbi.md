@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 title: 2.1 | Power BI from Microsoft
 slug: /2.1-power-bi
 tags: [tag1]
@@ -37,6 +37,21 @@ Many things that are possible in Power BI Desktop can now also be done directly 
 
 ## 2.1.3 Overview of the Power BI Desktop user interface
 
+In the following, I want to give a quick overview of the Power BI Desktop user interface in order to make navigating the tool for you more easy in the following chapters.
+
+![Power BI User Interface](/img/img_book_02-2.png)
+<div align="center"><font size= "2">Overview of the most important elements on the Power BI user interface (right-click and open in new tab for large version)</font></div>
+<br/>
+
+**Description**
+1. Navigation between the report builder, table explorer and data model (from top to bottom)
+2. Report pages, similar as in Microsoft Excel
+3. Tables, fields and measures used to build visuals and populate filters
+4. Selection of visualization types (clicking on one creates a new visual on the canvas)
+5. Switch between field placement in a visual (left) and formatting options (right). A visual has to be selected on the canvas to see the configuration options for it here
+6. Drag-and-drop of fields to set the pre-filtering of visuals, report pages and the entire report
+7. Creation of a new measure
+8. Open Power Query editor
 
 
 [^1]: VERWEIS Gartner

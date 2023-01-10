@@ -1,14 +1,10 @@
 ---
 sidebar_position: 999
-title: TITLE
+title: Template
 slug: /template
 tags: [tag1]
 ---
 
-# :green_book: TITLE
-
-Textblock
-
-## TITLE2
+# Template
 
 Textblock
