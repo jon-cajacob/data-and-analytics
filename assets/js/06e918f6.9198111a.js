@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[8164],{1712:a=>{a.exports=JSON.parse('{"label":"Data Visualization & Reporting","permalink":"/data-and-analytics/blog/tags/data-visualization-reporting","allTagsPath":"/data-and-analytics/blog/tags","count":1}')}}]);

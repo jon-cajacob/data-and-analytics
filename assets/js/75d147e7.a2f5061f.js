@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[6002],{9463:a=>{a.exports=JSON.parse('{"label":"Project Management","permalink":"/data-and-analytics/blog/tags/project-management","allTagsPath":"/data-and-analytics/blog/tags","count":3}')}}]);

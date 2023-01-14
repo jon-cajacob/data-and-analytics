@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[2474],{3195:a=>{a.exports=JSON.parse('{"label":"BI Software Market","permalink":"/blog/tags/bi-software-market","allTagsPath":"/blog/tags","count":1}')}}]);
