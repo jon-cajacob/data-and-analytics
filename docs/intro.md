@@ -28,3 +28,4 @@ Besides the Wiki, I write blog articles in 5 different categories which follows 
 
 ## Wiki: Step-by-step Implementation of an Analytics Solution with Power Bi
 
+

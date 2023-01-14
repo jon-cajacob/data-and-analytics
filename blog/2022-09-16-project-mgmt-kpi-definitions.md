@@ -16,10 +16,6 @@ tags: [Project Management, Template]
 
 <!-- <mark style={{backgroundColor: 'orange'}}>Text</mark> -->
 
-There are possibly endless reasons why a specific BI-project in a specific organisation is at risk of failure. However, I believe a certain pattern can be observed which I summarize in the following.
-
-*One note:* Knowing the risks is one thing. Actually managing them requires discipline and hard work. Take this list as a constant reminder in your BI journey and don’t fall for the various traps that might lurk around the next corner.
-
 ### Introduction
 The purpose of a business intelligence (BI) solution is ultimately to answer business critical questions and with that to support (data driven) decision making. The multidimensional analysis of key performance indicators (KPIs) is at the core of this purpose.
 

@@ -21,16 +21,27 @@ The following is the structure that I have currently in mind for my book:
     3. Prinzipien → Pragmatismus, Einfachheit etc.
 2. Überblick
     1. Power BI
-    2. BI & Analytics Lösungsdesign (Architektur)
-        1. Übersicht (Elemente, Prozesse, Datenflüsse etc.)
-            1. Dimensionstabelle
-            2. Faktentabelle
-            3. Datenvorbereitung
-            4. KPIs
-            5. Berichte
-            6. (…)
+    2. Power Query
+    3. BI & Analytics Lösungsdesign (Architektur)
+        1. Übersicht (Elemente, Prozesse, Datenflüsse etc.) -> Darstellung Gesamtlösung mit Elementen und Flow
+            1. Datenquellen
+            2. Datenvorbereitung (ETL)
+            3. Datenmodell
+                1. Dimensionstabellen
+                2. Faktentabellen
+                3. KPIs
+                4. Sonstiges (Hierarchien ..)
+            4. Visualisierungen und Berichte
+            5. Freigabe in der Orga
+            6. Userrollen
+                1. Administrators
+                2. Developers
+                3. Power User
+                4. Enduser
         2. Integration mit Gesamtarchitektur des Unternehmens (Grundsätze, z.B. Vorbereitung der Tabellen in Datawarehouse)
-    3. Agiles Vorgehen (Grundsätze, Kanban, etc.)
+            1. Brauche ich ein Data Warehouse?
+            2. Übliches Setup (SQL + ERP + Excel + Sharepoint Files ...)
+    4. Agiles Vorgehen (Grundsätze, Kanban, etc.)
 3. Vorbereitung der Daten (ETL)
     1. Übersicht Power Query
     2. Faktentabelle

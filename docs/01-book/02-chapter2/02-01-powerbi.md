@@ -14,7 +14,7 @@ Power BI from Microsoft is worldwide leading on the market for BI & Analytics pl
 It is important to note that Power BI is a **low-code tool**. That means almost all functions (e.g. data transformation step or formatting a visual) are operated with buttons on the software user interface. This makes the tool very accessible for non-programmers like for example finance professionals who have a good understanding of how to work with data (e.g. also with Excel). However, it is still possible to work with code if wanted or required for very complex operations. The exception is the creation of Measures (see step 4 below) which requires the use of the DAX language.
 
 ![Power BI Overview](/img/img_book_02-1.png)
-<div align="center"><font size= "2">Overview of the Power BI elements and workflow</font></div>
+<div align="center"><font size= "3">Overview of the Power BI elements and workflow</font></div>
 
 ## 2.1.2 The Power BI workflow
 
@@ -40,7 +40,7 @@ Many things that are possible in Power BI Desktop can now also be done directly 
 In the following, I want to give a quick overview of the Power BI Desktop user interface in order to make navigating the tool for you more easy in the following chapters.
 
 ![Power BI User Interface](/img/img_book_02-2.png)
-<div align="center"><font size= "2">Overview of the most important elements on the Power BI user interface (right-click and open in new tab for large version)</font></div>
+<div align="center"><font size= "3">Overview of the most important elements on the Power BI user interface (right-click and open in new tab for large version)</font></div>
 <br/>
 
 **Description**
