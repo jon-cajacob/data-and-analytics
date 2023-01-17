@@ -107,12 +107,24 @@ Extracting, transforming and loading data from its source to the destination dat
 
 ### Common data preparation steps
 
+The following are the most commonly applied data transformation steps:
+
+- **Selection** and **renaming** of columns (removal of columns not needed)
+- **Filtering** (simple or by and/or logic)
+- **Data type** definition (text values, decimal, integer etc.)
+- Creation of calculated **custom columns**. Either containing string values (e.g. by merging text) or numerical values (by mathematical definition)
+- **Joins** and **unions** of tables
+- Agreggation of data rows via **group by**
+- **Pivoting** and **unpivoting** of columns
+- **Replacing** values or errors in a column
+- **Data type transformations**, e.g. transforming a date into its end-of-month equivalent
 
 ### Power Query
 
 Power Query has been introducted in an earlier chapter. It is built into Power BI (and Excel) and allows the definition of data preparation processes which will then result in dimension and fact tables that are loaded to the data model (see next chapter).
 
 ### Power BI Dataflows
+
 
 
 ## 2.3.5 | Data model

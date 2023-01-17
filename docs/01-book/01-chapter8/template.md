@@ -1,7 +1,7 @@
 ---
 sidebar_position: 999
 title: Template
-slug: /template999
+slug: /template
 tags: [tag1]
 ---
 
