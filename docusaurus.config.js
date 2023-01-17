@@ -9,7 +9,7 @@ const config = {
   title: 'A Data & Analytics Wiki',
   tagline: 'Data & Analytics',
   url: 'https://www.github.com',
-  baseUrl: '/data-and-analytics/',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -130,15 +130,44 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Navigation',
+            title: 'Wiki',
             items: [
               {
-                label: 'Wiki',
-                to: '/',
+                label: 'Step-by-Step Implementation of Business Intelligence Solution with Microsoft Power BI (WIP)',
+                to: '/category/step-by-step-implementation-of-business-intelligence-solution-with-microsoft-power-bi-wip',
+              },
+              //{
+              //  label: 'Blog',
+              //  to: '/blog',
+              //},
+            ],
+          },
+          {
+            title: 'Blog',
+            items: [
+              {
+                label: '1 | Project Management',
+                to: '/blog/tags/project-management',
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '2 | Solution Design',
+                to: '/blog/tags/solution-design',
+              },
+              {
+                label: '3 | Data Transformation',
+                to: '/blog/tags/data-transformation',
+              },
+              {
+                label: '4 | Data Model',
+                to: '/blog/tags/data-model',
+              },
+              {
+                label: '5 | Data Visualization & Reporting',
+                to: '/blog/tags/data-visualization-reporting',
+              },
+              {
+                label: '6 | Publishing & Sharing',
+                to: '/blog/tags/data-visualization-reporting',
               },
             ],
           },
@@ -152,6 +181,14 @@ const config = {
               {
                 label: 'DataVision AG',
                 href: 'https://www.datavision.ch/',
+              },
+              {
+                label: 'Imprint',
+                href: '/imprint',
+              },
+              {
+                label: 'Data Privacy',
+                href: '/data-privacy',
               },
             ],
           },

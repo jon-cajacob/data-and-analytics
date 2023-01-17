@@ -79,3 +79,5 @@ The following is the structure that I have currently in mind for my book:
 8. Anhang
     1. DAX-Berechnungen
     2. Linksammlung
+
+[...]

@@ -7,17 +7,27 @@ slug: /
 
 Greetings! Welcome to this Wiki and Blog which is about **Data & Analytics with Power BI** from Microsoft.
 
-My name is Jon and I am a project leader for business intelligence and analytics projects at **DataVision** in Zurich, Switzerland. My daily job is to design and implement analytics solutions based on Power BI for a broad range of different customers from various different industries. My job allowed me to gain a deep understanding of what works well and what not, how best practice for robust solution design looks like and how to make an analytics project a success. With this Wiki and Blog, I want to share some of that knowledge.
+My name is Jon and I am a project leader for business intelligence and analytics projects at **DataVision** in Zurich, Switzerland. My daily job is to design and implement business intelligence and analytics solutions with **Microsoft Power BI** for a broad portfolio of customers from various different industries. My job allowed me to gain a deep understanding of what works well and what not, how best practice for robust solution design looks like and how to make an analytics project a success. With this Wiki and Blog, I want to share some of that knowledge.
 
 If you would like to connect & chat, please find my LinkedIn profile here: [<ins>LinkedIn Profile of Jon</ins>](https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/)
 
-<br/>
-<div align="center"><img src="./img/img_jon.png" alt="Jon Cajacob" width="425"/></div>
+<!--<br/>-->
+<!--<div align="center"><img src="./img/img_jon.png" alt="Jon Cajacob" width="425"/></div>-->
+<!--<br/>-->
+
+<!--![Agile project management](/img/img_jon.png)-->
+
+## Step-by-Step Implementation of Business Intelligence Solution with Power Bi
+
+[...]
+
+![Buildings blocks of a business intelligence solution](/img/img_book_02-5.png)
+<div align="center"><font size= "3">Buildings blocks of a business intelligence solution (right-click and open in new tab for large version)</font></div>
 <br/>
 
 ## Blog articles
 
-Besides the Wiki, I write blog articles in 5 different categories which follows the overall structure of developing and implementing an analytics solution:
+Besides the Wiki, I write blog articles in 6 different categories which follows the overall structure of developing and implementing a BI & analytics solution:
 
 1. [**Project Management**](blog/tags/project-management)
 2. [**Solution Design**](blog/tags/solution-design)
@@ -25,7 +35,5 @@ Besides the Wiki, I write blog articles in 5 different categories which follows 
 4. [**Data Model**](blog/tags/data-model)
 5. [**Data Visualization & Reporting**](blog/tags/data-visualization-reporting)
 6. [**Publishing & Sharing**](blog/tags/publishing-sharing)
-
-## Wiki: Step-by-step Implementation of an Analytics Solution with Power Bi
 
 

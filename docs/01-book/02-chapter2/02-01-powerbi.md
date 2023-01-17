@@ -11,10 +11,13 @@ tags: [tag1]
 
 Power BI from Microsoft is worldwide leading on the market for BI & Analytics platforms.[^1] The software allows the loading, transformation, modelling, visualization as well as the analysis of data from a large selection of different kinds of data sources. When creating an analytics solution with Power BI, a dataset is created based on which various reports, containing data visualizations, are developed and are finally shared with other people within an organization.
 
-It is important to note that Power BI is a **low-code tool**. That means almost all functions (e.g. data transformation step or formatting a visual) are operated with buttons on the software user interface. This makes the tool very accessible for non-programmers like for example finance professionals who have a good understanding of how to work with data (e.g. also with Excel). However, it is still possible to work with code if wanted or required for very complex operations. The exception is the creation of Measures (see step 4 below) which requires the use of the DAX language.
+It is important to note that Power BI is a **low-code tool**. That means almost all functions (e.g. data transformation step or formatting a visual) are operated with buttons, dropdowns and input fields on the software user interface. This makes the tool very accessible for non-programmers like for example finance professionals who have a good understanding of how to work with data (e.g. also with Excel). However, it is still possible to work with code if wanted or required for very complex operations. The exception is the creation of Measures (see step 4 below) which requires the use of the DAX language.
 
 ![Power BI Overview](/img/img_book_02-1.png)
 <div align="center"><font size= "3">Overview of the Power BI elements and workflow</font></div>
+<br/>
+
+Please note, I conciously omitted some of the additional elements and tools available in Power BI in order to reduce complexity and to focus on the essential components.
 
 ## 2.1.2 The Power BI workflow
 
@@ -54,6 +57,6 @@ In the following, I want to give a quick overview of the Power BI Desktop user i
 8. Open Power Query editor
 
 
-[^1]: VERWEIS Gartner
+[^1]: [<ins>2022 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms</ins>](https://info.microsoft.com/ww-landing-2022-gartner-mq-report-on-bi-and-analytics-platforms.html?LCID=EN-US)
 [^2]: See here for the full list of currently supported data sources: [<ins>Supported Data Sources</ins>](https://learn.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources)
 [^3]: Data Analysis Expressions; See here for the respective documentation of functions available: [<ins>DAX Reference</ins>](https://learn.microsoft.com/en-us/dax/dax-function-reference)

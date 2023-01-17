@@ -7,4 +7,4 @@ tags: [tag1]
 
 # Template
 
-Textblock
+This is a template markdown file.
