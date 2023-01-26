@@ -7,7 +7,7 @@ slug: /
 
 Greetings! Welcome to this Wiki and Blog which is about **Data & Analytics with Power BI** from Microsoft.
 
-My name is Jon and I am a project leader for business intelligence and analytics projects at **DataVision** in Zurich, Switzerland. My daily job is to design and implement business intelligence and analytics solutions with **Microsoft Power BI** for a broad portfolio of customers from various different industries. My job allowed me to gain a deep understanding of what works well and what not, how best practice for robust solution design looks like and how to make an analytics project a success. With this Wiki and Blog, I want to share some of that knowledge.
+My name is Jon and I am a project leader for business intelligence and analytics projects at **DataVision** in Zurich, Switzerland. My daily job is to design and implement business intelligence and analytics solutions with **Microsoft Power BI** for a broad portfolio of customers from various different industries. My job allowed me to gain a deep understanding of what works well and what not, how best practice for robust solution design looks like and how to make an analytics project a success. Having a Wiki or Blog was on my mind for a while and with this page I want to make it reality and share some of my knowledge.
 
 If you would like to connect & chat, please find my LinkedIn profile here: [<ins>LinkedIn Profile of Jon</ins>](https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/)
 
@@ -17,9 +17,9 @@ If you would like to connect & chat, please find my LinkedIn profile here: [<ins
 
 <!--![Agile project management](/img/img_jon.png)-->
 
-## Step-by-Step Implementation of Business Intelligence Solution with Power Bi
+## Step-by-Step Implementation of Business Intelligence Solution with Power BI
 
-[...]
+When I started to write blog articles, I learned that this is something I really like doing. Blog articles though are individual pieces of knowledge and what is missing for me is a coherent structure that connects this knowledge. I therefore 
 
 ![Buildings blocks of a business intelligence solution](/img/img_book_02-5.png)
 <div align="center"><font size= "3">Buildings blocks of a business intelligence solution (right-click and open in new tab for large version)</font></div>
