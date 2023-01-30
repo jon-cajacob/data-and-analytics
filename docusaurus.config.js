@@ -133,8 +133,8 @@ const config = {
             title: 'Wiki',
             items: [
               {
-                label: 'Step-by-Step Implementation of Business Intelligence Solution with Microsoft Power BI (WIP)',
-                to: '/category/step-by-step-implementation-of-business-intelligence-solution-with-microsoft-power-bi-wip',
+                label: 'Business Intelligence & Analytics with Microsoft Power BI (Book work-in-progress)',
+                to: '/category/business-intelligence--analytics-with-microsoft-power-bi-book-in-progress',
               },
               //{
               //  label: 'Blog',

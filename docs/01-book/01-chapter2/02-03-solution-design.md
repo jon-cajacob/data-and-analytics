@@ -9,7 +9,7 @@ tags: [tag1]
 
 ## 2.3.1 | Overview
 
-In this chapter, I want to give a broad overview and a description of the building blocks of a business intelligence solution and how they are integrated with each other. 
+In this chapter, I want to give a broad overview and a description of the building blocks of a business intelligence (BI) solution and how they are integrated with each other. 
 
 To make it less theoretical, I will always give an example of how a certain element of the solution is implemented with Power BI. However please note, all these components are relevant for any BI & analytics solution, independent of the specific software used.
 
@@ -19,9 +19,30 @@ The following illustration shall give a concise overview of how a business intel
 <div align="center"><font size= "3">Buildings blocks of a business intelligence solution (right-click and open in new tab for large version)</font></div>
 <br/>
 
+## 2.3.x | Purpose and goal of a BI solution
+
+The purpose and goal of a BI solution is to answer **analytical questions** and to support and foster **better decision making**. For that, a BI tool turns data into useful information. Ultimately, the goal is to improve the competitive position of the organization. Both aspects - answering questions and making better decisions - can be applied on an operational an strategic level in a given organization.
+
+On the **strategic level**, a BI solution supports the definition of strategic goals and measures. And of course, the success (and performance) of a strategy can be measured with respective KPIs in a BI tool.
+
+Consider the following examples on the strategic level:
+
+- Which of our business areas are growing and how profitable are they?
+- In which business areas should we focus and invest?
+- How successful is our strategy in product innovation?
+
+On a more **operational level**, a BI tool can support in day-to-day decision making and measure the operational goals with respective KPIs.
+
+Consider the following examples on the operational level:
+
+- Which customer should I focus on as a sales manager?
+- For which product is inventory too high? For which too low?
+- For which products do we see an upward trend in sales?
+
+
 ## 2.3.2 | Project and agile management
 
-Designing and implementing a BI solution is a project and should be managed accordingly. How such a project should then be organized and executed in detail is specific to the given situation and framework of an organization. I will therefore not attempt to generalize it, however, I want to note down a few recommendations and guiding principles from my own practice which I know are strong instruments to increase the likelihood of the project being successful.
+Designing and implementing a BI solution is a project and should be managed accordingly. How such a project is organized and executed in detail is specific to the given situation and framework of an organization. I will therefore not attempt to generalize it, however, I want to note down a few recommendations and guiding principles from my own practice which I know are strong instruments to increase the likelihood of the project being successful.
 
 Given its importance, I first want to summarize my understanding and give an overview of agile project management. After that, I will list my recommendations on how to apply agile in the world of business intelligence and analytics.
 
@@ -54,7 +75,7 @@ What is more, not only the project deliveries are continuously improved but also
 4. Interact with the **customer** regularly, collect feedback and improve the solution accordingly
 5. Use a **Kanban board** to manage and visualize tasks and their progress
 6. Strive for **simplicity** and technical excellence as the core instruments to achieve operational robustness of the solution going forward
-7. Embrace **uncertainty and change** as an essential part of the overall journey
+7. Embrace **uncertainty and change** as an essential part of the overall journey. Developing a BI solution is not a linear process
 8. Do not get lost in agile project methodology (and bureaucracy): Use what is useful for your team and keep it simple and lean
 
 ## 2.3.3 | Data sources
@@ -143,7 +164,7 @@ Further, Dataflows can be useful to provide relevant tables to data analysts in 
 
 The data model is the core of each business intelligence tool. All visualizations, reports and KPIs are based on the data model. It is an abstraction of the reality we aim to explore with data. Dimension and fact tables and their relationships are the basis of the model. Other components like custom calculations or hierarchies are further relevant elements of the model meta data.
 
-The most common data model schema by far is the **star model**. If you look at the illustration below, you will recognize a star-like formation of the dimension and fact tables. A variation of the star model is the **snowflake model** which further splits a dimension table (e.g. the field Category in dimProduct is outsourced to another dimension table, dimCategory which is connected with dimProduct). The focus of this book is the common star model.
+The most common data model schema for a BI solution by far is the **star model**. If you look at the illustration below, you will recognize a star-like formation of the dimension and fact tables. A variation of the star model is the **snowflake model** which further splits a dimension table (e.g. the field Category in dimProduct is outsourced to another dimension table, dimCategory which is connected with dimProduct). The focus of this book is the common star model as it is widely considered best practice. Other data model structures have a high chance of leading to a multitude of problems in the long term.
 
 Please note, a star schema can have multiple fact tables. In that case, multiple fact tables share the same dimensions (e.g. dimDate) which is highly useful in the BI tool.
 
@@ -207,11 +228,13 @@ Tables are connected via key columns, commonly referred to **primary key** (in t
 
 ### Data modelling in Power BI
 
-The data modelling tool in Power BI Desktop is access via the navigation pane on the left window border (see red frame below). Tables are then connected by simply dragging-and-dropping fields between tables. Each relationship has three main properties:
+The data modelling tool in Power BI Desktop is accessed via the navigation pane on the left window border (see red frame below). Tables are then connected by simply dragging-and-dropping fields between tables.
 
 ![Data modelling in Power BI](/img/img_book_02-11.png)
 <div align="center"><font size= "3">Data modelling in Power BI (right-click and open in new tab for large version)</font></div>
 <br/>
+
+Each relationship has three main properties:
 
 - Key fields (primary and foreign) by which the tables are connected
 - Relationship cardinality
@@ -221,7 +244,38 @@ With cross-filter direction we can control the filtering direction (single or bo
 
 ### Calculations (KPI, Measures)
 
+The calculation and analysis of key performance indicators (KPI) is the main purpose of a business intelligence solution in the majority of use cases. In fact, practically all solution requirements can be derived from the analytical questions which shall be answered and decisions that shall be supported with the BI tool using KPIs as the guiding indicators.
+
+I want to discuss two ways of implementing a KPI in a BI tool: Pre-calculated columns and dynamic calculations:
+
+| Type | Calculated at … | Power BI |
+|---|---|---|
+| Pre-calculated columns | Dataset refresh | Custom column |
+| Dynamic calculations | Runtime | Measure |
+
+**Pre-calculated columns** are usually created as part of the data preparation process. Some tools (including Power BI) in addition allow to define such custom columns directly in the data model. In both cases, the calculation is static and only updated when the dataset is refreshed (i.e. the data preparation process is executed). It is important to note that pre-calculated columns are only applicable to calculations that are based on summation. A very common example is the pre-calculation of sales amounts based on the multiplication of price and quantity columns.
+
+**Dynamic calculations** are dynamic because each time a user interacts with a visualization or dashboard, the calculation is (re-)run and the result is returned and visualized immediately. Common interactions are filtering, sorting or drilling. In Power BI, dynamic calculations are built with so called **Measures** using the functional language **DAX**. Within Measures, we can very precisely define the behaviour of a calculation in context of filters applied. Further, we can manipulate the filter context itself (e.g. total sales, but only for the region APAC). I will discuss filter context in the next chapter.
+
+The following are some examples of Measures built with DAX in Power BI:
+
+- Sales margin defined as (Sales - Costs) / Sales
+- Sales volume of the prior year while the filter on the dashboard has selected the current year (using time intelligence functionality)
+- Percentage deviation of sales quantity of the current month versus the prior month
+- Employee turnover
+- Average Co2 emission per dish sold in a restaurant chain
+
 ### Row level security (RLS)
+
+The row level security (RLS) is a security mechanism part of the data model metadata that limits the data rows a certain user can see when accessing visualizations and reports. Consider the following examples relevant in corporate practice:
+
+- Country managers can only see financial data of their assigned country
+- Cost and profit center managers can only see costs booked on their assigned cost center
+- A sales manager can only see her assigned customer accounts
+- Only corporate management can see the profit and loss statement of the company
+- Only human resources managers can see employee data
+
+The RLS can be implemented via rules and roles in Power BI. In the chapter of topic collections, I will go into more detail and provide an example (see here VERWEIS).
 
 ### Other important model meta data
 
@@ -231,25 +285,51 @@ The following are additional properties which are set in the data model:
 - Field formats (e.g. date format, number format with thousand separators and number of decimals etc.)
 - Definition date table (for time intelligence functions)
 - Definition of key fields
-- Visibility of fields
+- Visibility of fields or entire tables
 - Custom sorting of fields
 - Hierarchies
 - Standard aggregation method per field (sum, average, min / max, no aggregation etc.)
 - Storage mode per table (import, DirectQuery etc.)
 - etc.
 
+We will touch upon many of these properties in the following chapters when building the data model.
+
 ## 2.3.6 | Data visualization & reporting
+
+With data visualizations we present data in a way that is easy to read for the human mind. As with the overall purpose of a business intelligence solution, we visualize data because we want to answer analytical questions. When multiple visualizations are placed on a canvas, we usually speak either of a **dashboard** or a **report** (while a clear distinction between the two terms is not clear-cut and mostly useless).
+
+One could easily write an entire book only about the data visualization component of a BI solution (and there is a good amount of books available). I will therefore only summarize the most important aspects here. In particular, I want to discuss visualization types, principles of good visualization design and filter context.
 
 ### Visualization types and their application
 
+There is a huge variety of different visualization types to present data. Only a few though are actually applicably on corporate reality, and I show these in the following illustration:
+
+![Visualization types](/img/img_book_02-13.png)
+<div align="center"><font size= "3">Visualization types (right-click and open in new tab for large version)</font></div>
+<br/>
+
+I can guarantee you, that for only very rare cases you would need another visualization type than the ones shown above in the context of business intelligence. These types of visualizations are rather simple and very intuitive to read for most humans and therefore to be preferred over all other types of (more complicated) visualizations.
+
+**Horizontal bar charts** are useful to compare different categories. Charts where the x-axis is horizontal, like **line or area charts** are preferred to show trends over time. **Stacked bar charts** are useful to further split a bar into categories, however please note they are already harder to read for the human mind. **Scatter plots** with bubbles of different sizes are very powerful to compare multiple KPIs. And finally, **tables** are by far the most powerful visualization when used with drilldown functionality and enhanced with visual elements like colored variations. Though some would argue they look not visually exciting enough (which is an aspect completely irrelevant for good visualization design).
+
+I do not recommend using visualization types like pie charts, doughnut charts, tree charts or stacked area charts as for all of them the human mind has troubles with understanding and comparing visual sizes and areas. Simply use a bar chart instead, as it is rather easy for the human mind to compare bars of different lenght (and of equal width).
+
+I want to note one exception of a visualization type which is very powerful but not shown in the recommendation above: **waterfall charts**. The problem with waterfall charts is that unfortunately modern BI tool are (still) not really capable of this type of visualization. Power BI for example can show waterfall charts but only in a very rudimentary way, which is usually not enough in practice.
+
 ### Principles of good visualization and reporting design
 
-### Filtering and context
+- Data-to-Ink ratio
+- Minimalism and simplicity
+- Consistency
+- Context
+- Interactivity (drill, filter ...)
+
+### Filter context
 
 
 ## 2.3.7 | Publishing & sharing
 
-### Platform solution
+Platform solution
 
 ### Power BI Online Service
 
@@ -272,4 +352,4 @@ The following are additional properties which are set in the data model:
 [^3]: [<ins>Power Query Query Folding Documentation</ins>](https://learn.microsoft.com/en-us/power-query/power-query-folding)
 [^4]: [<ins>On-Premise Data Gateway Documentation</ins>](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-onprem)
 [^5]: [<ins>Power BI Dataflow Documentation</ins>](https://learn.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
-[^6]: [<ins>DirectQuery Documentation</ins>](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-about#directquery-limitations)
+[^6]: [<ins>DirectQuery Documentation</ins>](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-about)
