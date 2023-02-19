@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[4121],{8070:a=>{a.exports=JSON.parse('[{"label":"tag1","permalink":"/tags/tag-1","count":12},{"label":"3 | Preparing the data","permalink":"/tags/3-preparing-the-data","count":3}]')}}]);
