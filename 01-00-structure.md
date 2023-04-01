@@ -76,6 +76,7 @@ The following is the structure that I have currently in mind for my book:
     8. Datenqualität (Transparent machen)
     9. Wie Power BI Daten speichert
     10. Datenaktualisierung und Gateway
+    11. Tabular Editor
 8. Anhang
     1. DAX-Berechnungen
     2. Linksammlung

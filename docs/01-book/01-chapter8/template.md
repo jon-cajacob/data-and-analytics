@@ -7,4 +7,7 @@ tags: [tag1]
 
 # Template
 
-This is a template markdown file.
+- Custom sorting
+- Row level security
+- Parameters in Power Query
+- Field parameters
