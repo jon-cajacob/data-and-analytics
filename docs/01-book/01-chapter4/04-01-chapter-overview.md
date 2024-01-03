@@ -2,7 +2,7 @@
 sidebar_position: 999
 title: 4.1 | Chapter overview
 slug: /4.1
-tags: []
+tags: [Chapter overview]
 ---
 
 # 4.1 | Chapter overview

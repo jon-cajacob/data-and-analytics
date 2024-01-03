@@ -61,7 +61,7 @@ We have now created our first visualization and also adjusted it so that is adhe
 
 Describring all variations of formatting options and different chart types would not fit into a textbook so I encourage you to explore them by yourself. Here are some ideas to try:
 
-- Try placing multiple fields on the Y-axis. With that, you can build a drill hierarchy
+- Try placing multiple fields on the Y-axis. With that, you can build a **drill hierarchy**
 - Change the chart type while having the chart selected
-- Try placing a field on Legend or Small multiples
+- Try placing a field on *Legend* or *Small multiples*
 - Click through and play around with the different formatting options available

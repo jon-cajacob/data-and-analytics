@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: 5.6 | Summary and takeaways for working with measures and DAX
 slug: /5.6
-tags: [tag1]
+tags: [DAX, Measures]
 ---
 
 # 5.6 | Summary and takeaways for working with measures and DAX

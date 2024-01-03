@@ -2,7 +2,7 @@
 sidebar_position: 999
 title: 3.2 | Connecting Power BI with the example data Excel file
 slug: /3.2
-tags: [3 | Preparing the data]
+tags: [Power Query, Excel data source]
 ---
 
 # 3.2 | Connecting Power BI with the example data Excel file

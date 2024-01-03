@@ -9,9 +9,9 @@ tags: [tag1]
 
 The date dimension table is a crucial component of our data model and there are certain configurations necessary for it.
 
-#### 1. Mark dimDate as a date table
+#### 1. Mark *dimDate* as a date table
 
-Power BI has to know that dimDate is our date table. This is necessary for the time intelligence functionalities which we will use later to create Measures with DAX.
+Power BI has to know that *dimDate* is our date table. This is necessary for the time intelligence functionalities which we will use later to create Measures with DAX.
 
 To mark *dimDate* as the date table, simply navigate to the *Data view*, select the table *dimDate* in the table navigation and under *Table tools* select *Mark as date table*. In the appearing window, select the Date column and confirm with OK.
 
@@ -33,4 +33,4 @@ To do that, navigate to the *Data view* and select the field *MonthDescShort* in
 
 ![03-69](/img/img_book_03-69.png)
 
-Now we are done with building and configuring the data model. In the next chapter, we will create Measures, visuals and dashboards.
+Now we are done with building and configuring the data model. In the next chapter, we will create measures, visuals and dashboards.

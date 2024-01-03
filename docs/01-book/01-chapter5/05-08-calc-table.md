@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: 5.8 | Creating a calculated table with DAX
 slug: /5.8
-tags: [tag1]
+tags: [DAX, Calculated table, Calculated column, DAX table functions]
 ---
 
 # 5.8 | Creating a calculated table with DAX

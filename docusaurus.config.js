@@ -72,6 +72,34 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
+            label: 'Home',
+          },
+          {
+            //type: 'doc',
+            //docId: 'intro',
+            to: '/tags',
+            position: 'left',
+            label: 'Search by Tags',
+          },
+          {
+            //type: 'doc',
+            //docId: 'intro',
+            to: '/category/business-intelligence--analytics-with-microsoft-power-bi-full-book',
+            position: 'left',
+            label: 'BI & Analytics with Power BI [Full Book]',
+          },
+          {
+            //type: 'doc',
+            //docId: 'intro',
+            to: '/category/articles',
+            position: 'left',
+            label: 'Articles',
+          },
+          {
+            //type: 'doc',
+            //docId: 'intro',
+            to: '/category/wiki',
+            position: 'left',
             label: 'Wiki',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
@@ -120,8 +148,13 @@ const config = {
           },
 
           {
-            href: 'https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/',
+            href: 'https://www.linkedin.com/in/jon-cajacob/',
             label: 'LinkedIn',
+            position: 'right',
+          },
+          {
+            href: 'https://www.datavision.ch',
+            label: 'DataVision AG',
             position: 'right',
           },
         ],
@@ -133,8 +166,8 @@ const config = {
             title: 'Wiki',
             items: [
               {
-                label: 'Business Intelligence & Analytics with Microsoft Power BI (Book work-in-progress)',
-                to: '/category/business-intelligence--analytics-with-microsoft-power-bi-book-in-progress',
+                label: 'Business Intelligence & Analytics with Microsoft Power BI [Full Book]',
+                to: '/category/business-intelligence--analytics-with-microsoft-power-bi-full-book',
               },
               //{
               //  label: 'Blog',
@@ -167,7 +200,7 @@ const config = {
               },
               {
                 label: '6 | Publishing & Sharing',
-                to: '/blog/tags/data-visualization-reporting',
+                to: '/blog/tags/publishing-sharing',
               },
             ],
           },
@@ -176,7 +209,7 @@ const config = {
             items: [
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/jon-cajacob-cfa-frm-4876857b/',
+                href: 'https://www.linkedin.com/in/jon-cajacob/',
               },
               {
                 label: 'DataVision AG',

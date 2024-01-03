@@ -2,7 +2,7 @@
 sidebar_position: 999
 title: 3.3 | Preparing the customer dimension (dimCustomer)
 slug: /3.3
-tags: [3 | Preparing the data]
+tags: [Power Query, Remove top rows, Promote first row as headers, Select columns, Data types, Replace values, Calculated column, Remove duplicates]
 ---
 
 # 3.3 | Preparing the customer dimension (*dimCustomer*)

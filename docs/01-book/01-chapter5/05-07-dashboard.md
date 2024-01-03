@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: 5.7 | Example of a fully functioning dashboard
 slug: /5.7
-tags: [tag1]
+tags: [Visualization, Reporting, Example]
 ---
 
 # 5.7 | Example of a fully functioning dashboard
@@ -21,3 +21,5 @@ I want to highlight the following regarding this dashboard:
 - I also included a **table visual**. Note the visual enhancements with the data bars (configured under *Cell elements* in the formatting options). Because of these enhancements and plus the dynamic drill possibilities, a table visual is very often the superior choice for a report
 - The **dynamic coloring of a bar chart** is configured under Columns in the formatting options with a simple rule that uses the year-over-year difference measure
 - Finally, note how the **measures** are defined and how they are used in the different visuals. You will observe many of the techniques previously discussed and also how simple the DAX code used is - and yet how versatile and powerful this set of measures can be for a dashboard
+
+You can download the full PBIX file here: [<ins>File repository on GitHub</ins>](https://github.com/jon-cajacob/bi-with-power-bi)

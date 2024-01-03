@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: 5.5 | Commonly used DAX measure patterns using CALCULATE()
 slug: /5.5
-tags: [tag1]
+tags: [DAX, Measures, CALCULATE, Filter context]
 ---
 
 # 5.5 | Commonly used DAX measure patterns using CALCULATE()
@@ -36,8 +36,8 @@ Note how the measure ignores the filter context given by the rows in the matrix 
 
 We can also **combine** the filter context from the visualization (or slicers etc.) with the one defined inside the measure with simply wrapping the logical filter statement with **KEEPFILTERS()**.
 
-```jsx title="New measure: Sales ProductType KEEPFILTERS()"
-Sales ProductType KEEPFILTERS() =
+```jsx title="New measure: Sales ProductType using KEEPFILTERS"
+Sales ProductType using KEEPFILTERS = 
 CALCULATE (
     [Sales in USD],
     KEEPFILTERS ( dimProduct[ProductType] = "Trade Product" )
@@ -52,8 +52,8 @@ This already makes more sense because nothing is returned for "Manufactured Prod
 
 We can combine multiple filter statements with the function FILTER(). FILTER() returns a filtered table based on which the calculation is performed.
 
-```jsx title="New measure: Sales FILTER()"
-Sales FILTER() =
+```jsx title="New measure: Sales using FILTER"
+Sales using FILTER =
 CALCULATE (
     [Sales in USD],
     FILTER (
@@ -76,8 +76,8 @@ As with many programming languages, we can use **variables** inside a DAX measur
 
 Let's re-write the previous measure using variables:
 
-```jsx title="New measure: Sales FILTER() Variables"
-Sales FILTER() Variables =
+```jsx title="New measure: Sales using FILTER and variables"
+Sales using FILTER and variables =
 VAR vTableFilter =
     FILTER (
         dimProduct,
@@ -98,8 +98,8 @@ We can use REMOVEFILTERS() or ALL() to remove (ignore) a specified filter from t
 
 Let's ignore the field *Subcategory* from *dimProduct* in the next measure:
 
-```jsx title="New Measure: Sales REMOVEFILTERS()"
-Sales REMOVEFILTERS() =
+```jsx title="New Measure: Sales using REMOVEFILTERS"
+Sales using REMOVEFILTERS =
 CALCULATE ( [Sales in USD], REMOVEFILTERS ( dimProduct[Subcategory] ) )
 ```
 
@@ -109,9 +109,9 @@ Let's have a look at the results in Power BI for the measures created in steps 3
 
 ![03-91](/img/img_book_03-91.png)
 
-- [*Sales FILTER()*] only returns a value for "Subcategory 1" and "Trade Product"
-- [*Sales FILTER() Variables*] does the exact same thing as [*Sales FILTER()*]
-- [*Sales REMOVEFILTERS()*] specifically ignores the *Subcategory* filter context 
+- [*Sales using FILTER*] only returns a value for "Subcategory 1" and "Trade Product"
+- [*Sales using FILTER and variables*] does the exact same thing as [*Sales FILTER()*]
+- [*Sales using REMOVEFILTERS*] specifically ignores the *Subcategory* filter context 
 
 ## 5.5.2 | Chapter conclusion
 

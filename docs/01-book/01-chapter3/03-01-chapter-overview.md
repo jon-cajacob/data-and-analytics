@@ -2,7 +2,7 @@
 sidebar_position: 999
 title: 3.1 | Chapter overview
 slug: /3.1
-tags: [3 | Preparing the data]
+tags: [Chapter overview]
 ---
 
 # 3.1 | Chapter overview

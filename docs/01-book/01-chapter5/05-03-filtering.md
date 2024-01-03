@@ -15,7 +15,7 @@ As described in chapter VERWEIS, there are different ways of establishing a filt
 - **Filter pane:** There is also a filter pane available in the report builder where we can place filters that either impact a specific visualization, a report page entirely or all report pages in the Power BI file. This method of filtering is best suited for pre-filtering data and visualizations, which should not be changed by end-users
 - **Measures (DAX)**: We can also set and manipulate the filter context inside a measure with the functional language DAX. We will look at this method in the next chapters
 
-Let's explore the first two options.
+Let's explore the first two options in this chapter. The third options with measures is discussed in chapter VERWEIS.
 
 #### 1. Place an empty slicer on the report page next to the bar chart visualization
 
@@ -57,5 +57,9 @@ For the slicer that filters *Channel Group* and *Channel Desc*, let's change som
 I would recommend to use both options as they improve the user experience of the dashboard.
 
 ![03-86](/img/img_book_03-86.png)
+
+#### 7. Add a second visualization and configure the interactions between the slicers and the visuals
+
+[...]
 
 In this chapter, we explored how to use slicers and the filter pane to establish and dynamically change a filter context on a report page. As introduced in the beginning of this chapter, we can also manipulate the filter context with measures. This is the topic of the next few chapters.
