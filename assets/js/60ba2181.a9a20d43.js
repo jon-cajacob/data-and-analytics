@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[3346],{3322:a=>{a.exports=JSON.parse('{"label":"Data quality","permalink":"/tags/data-quality","allTagsPath":"/tags","count":1,"items":[{"id":"book/chapter8/08-02-data-quality","title":"8.2 | Data quality management","description":"[in progress]","permalink":"/8.2"}]}')}}]);

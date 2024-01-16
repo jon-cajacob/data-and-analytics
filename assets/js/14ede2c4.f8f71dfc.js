@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[6972],{71520:a=>{a.exports=JSON.parse('{"label":"Security","permalink":"/tags/security","allTagsPath":"/tags","count":1,"items":[{"id":"book/chapter6/06-06-rls","title":"6.6 | Row Level Security (RLS) implementation","description":"6.6.1 | Introduction","permalink":"/6.6"}]}')}}]);

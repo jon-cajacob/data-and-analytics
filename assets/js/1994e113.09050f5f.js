@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[8580],{7835:a=>{a.exports=JSON.parse('{"permalink":"/blog/tags/data-visualization-reporting","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

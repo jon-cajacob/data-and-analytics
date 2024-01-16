@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[5373],{89519:a=>{a.exports=JSON.parse('{"label":"Risk Management","permalink":"/blog/tags/risk-management","allTagsPath":"/blog/tags","count":1}')}}]);

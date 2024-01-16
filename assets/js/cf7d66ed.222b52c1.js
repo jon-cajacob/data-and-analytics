@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_and_analytics=self.webpackChunkdata_and_analytics||[]).push([[1841],{29594:a=>{a.exports=JSON.parse('{"label":"Data lineage","permalink":"/tags/data-lineage","allTagsPath":"/tags","count":1,"items":[{"id":"book/chapter6/06-03-data-refresh","title":"6.3 | Automated data refresh setup","description":"6.3.1 | Overview","permalink":"/6.3"}]}')}}]);
